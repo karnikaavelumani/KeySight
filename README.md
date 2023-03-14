@@ -1,38 +1,30 @@
-# create-svelte
+# KeySight - SvelteKit Project
+This is a simple SvelteKit project that allows users to listen to an audio file and guess which note the sound is.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+### Getting Started
+To get started with this project, you'll need to clone the repository and install the dependencies:
 
-## Creating a project
+`git clone https://github.com/karnikaavelumani/KeySight`
+`cd KeySight`
+`npm install`
 
-If you're seeing this, you've probably already done this step. Congrats!
+### Usage
+To start the development server, run:
+`npm run dev`
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+This will start the server at http://localhost:3000, where you can access the app.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+### Features
+- Play an audio file and guess which note the sound is
+- Select an answer from multiple options
+- Get immediate feedback on whether the guess is correct or incorrect
+- Play a new audio file and guess another note
 
-## Developing
+### Technologies Used
+This project is built using the following technologies:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+SvelteKit - A framework for building web applications with Svelte
+HTML/CSS - For building the UI and layout of the app
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+### Credits
+This project was created with love.
